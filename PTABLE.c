@@ -35,7 +35,7 @@ int main()
             printf("Please enter 4 to continue: \n");
 
             printf("Enter the number: \n");
-            scanf("%d", &nExit);;
+            scanf("%d", &nExit);
             break;
         default:
             break;
@@ -49,9 +49,9 @@ int main()
             printf("Thank you for using the Periodic Table.\n");
             break;
         case 4:
-            printf("Welcome to the Periodic Table!\n");
-            printf("* Please enter the number 1 to know more about an element: \n");
-            printf("* Please enter the number 2 to exit: \n");
+            printf("Welcome back to the Periodic Table!\n");
+            printf("Please enter the atomic number of the element: \n");
+            scanf("%d", &nAtomicNum);
             break;
         default:
             break;
